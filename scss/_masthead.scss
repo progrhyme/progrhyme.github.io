@@ -18,10 +18,6 @@
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
   }
-  h2 {
-    max-width: 20rem;
-    font-size: 1rem;
-  }
   @media(min-width: 768px) {
     h1 {
       font-size: 4rem;
@@ -35,10 +31,6 @@
       font-size: 4.5rem;
       line-height: 4.5rem;
       letter-spacing: 0.6rem;
-    }
-    h2 {
-      max-width: 30rem;
-      font-size: 1.25rem;
     }
   }
 }
