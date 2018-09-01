@@ -1,9 +1,12 @@
 .signup-section {
-  padding: 10rem 0;
-  height: 240px;
+  padding: 6rem 0;
+  height: 25vh;
   background: linear-gradient(to bottom, #{fade-out($black, .9)} 0%,#{fade-out($black, .5)} 75%,$black 100%), url('../img/bg-macro-footer.jpg');
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-size: cover;
+  @media(min-width: 768px) {
+    padding: 10rem 0;
+  }
 }

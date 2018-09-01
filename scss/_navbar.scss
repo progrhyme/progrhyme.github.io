@@ -12,8 +12,9 @@
   }
   .navbar-brand {
     color: $black;
+    font-size: 1.2rem;
     font-weight: 700;
-    padding: .9rem 0;
+    padding: 0.6rem 0;
   }
   .navbar-nav {
     .nav-item {
@@ -27,6 +28,11 @@
         outline: none;
         background-color: transparent;
       }
+    }
+  }
+  @media(min-width: 768px) {
+    .navbar-brand {
+      font-size: 1.4rem;
     }
   }
   @media (min-width: 992px) {

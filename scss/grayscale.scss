@@ -11,7 +11,15 @@ body {
   font-family: 'Nunito';
   letter-spacing: 0.0625em;
 }
-
+h2 {
+  font-size: 1.5rem;
+}
+h3 {
+  font-size: 1.3rem;
+}
+p {
+  font-size: 0.9rem;
+}
 a {
   color: $primary;
   &:focus,
@@ -34,5 +42,16 @@ a {
 }
 
 footer {
-  padding: 5rem 0;
+  padding: 4rem 0;
+}
+@media(min-width: 768px) {
+  h2 {
+    font-size: 2rem;
+  }
+  h3 {
+    font-size: 1.5rem;
+  }
+  p {
+    font-size: 1rem;
+  }
 }
