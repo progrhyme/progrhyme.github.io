@@ -57,13 +57,13 @@ gulp.task('css:compile', function() {
     .pipe(header(banner, {
       pkg: pkg
     }))
-    .pipe(gulp.dest('./css'))
+    .pipe(gulp.dest('./tmp/css'))
 });
 
 // Minify CSS
 gulp.task('css:minify', ['css:compile'], function() {
   return gulp.src([
-      './css/*.css',
+      './tmp/css/*.css',
       '!./css/*.min.css'
     ])
     .pipe(cleanCSS())
