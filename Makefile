@@ -11,4 +11,4 @@ clean:
 publish: clean build
 	cd dist && git add . \
 		&& git commit -m "make publish" \
-		&& git push origin gh-pages
+		&& git push origin master
