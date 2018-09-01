@@ -1,22 +1,48 @@
 .projects-section {
-  padding: 10rem 0;
-  .featured-text {
-    padding: 2rem;
-    @media (min-width: 992px) {
-      padding: 0 0 0 2rem;
-      border-left: 0.5rem solid $primary;
+  background-color: $gray-200;
+  padding: 6rem 0;
+  h2 {
+    color: $gray-800;
+    font-weight: bolder;
+    text-align: center;
+    margin-bottom: 0.6em;
+  }
+  p {
+    color: $gray-800;
+    text-align: center;
+    margin-bottom: 2em;
+    .strong {
+      font-weight: bolder;
+      color: $black;
     }
   }
-  .project-text {
-    padding: 3rem;
-    font-size: 90%;
-    @media (min-width: 992px) {
-      padding: 5rem;
-      hr {
-        border-color: $primary;
-        border-width: .25rem;
-        width: 30%;
-      }
+  .card {
+    padding-top: 1.5em;
+    margin-bottom: 1.5em;
+    border: 0;
+    border-right: 0.25rem solid $primary;
+    h3 {
+      font-size: 1.5em;
+      color: $gray-700;
+      padding-bottom: 0.1em;
+      /*border-bottom: 1px solid $gray-400;*/
     }
+    p {
+      text-align: left;
+      padding-left: 0.75em;
+      margin-bottom: 0.1em;
+    }
+    .site-items {
+      margin-top: 0.5em;
+      margin-bottom: 1.2em;
+    }
+    ul {
+      color: $gray-700;
+      list-style: none;
+      padding-left: 1.5em;
+    }
+  }
+  .card-old {
+    border-right: 0.25rem solid $gray-600;
   }
 }

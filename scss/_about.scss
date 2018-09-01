@@ -1,7 +1,25 @@
 .about-section {
-  padding-top: 10rem;
+  padding: 4rem 0 4rem;
   background: linear-gradient(to bottom, $black 0%,#{fade-out($black, .1)} 75%,#{fade-out($black, .2)} 100%);
   p {
-    margin-bottom: 5rem;
+    margin-bottom: 2rem;
+    .strong {
+      font-weight: bolder;
+      color: $gray-500;
+    }
+  }
+  .social {
+    margin-top: 1rem;
+    a {
+      font-size: 4em;
+      letter-spacing: 0.25em;
+      text-align: center;
+      &:hover {
+        color: fade-out($white, 0.1);
+      }
+      &:active {
+        color: $white;
+      }
+    }
   }
 }
