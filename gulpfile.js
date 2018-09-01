@@ -16,6 +16,18 @@ const banner = ['/*!\n',
   ''
 ].join('');
 
+// Copy HTML
+gulp.task('html', function() {
+  gulp.src(['./*.html'])
+    .pipe(gulp.dest('./dist'))
+})
+
+// Copy images
+gulp.task('img', function() {
+  gulp.src(['./img/**/*'])
+    .pipe(gulp.dest('./dist/img'))
+})
+
 // Copy third party libraries from /node_modules into /vendor
 gulp.task('vendor', function() {
 
@@ -98,7 +110,7 @@ gulp.task('js:minify', function() {
 gulp.task('js', ['js:minify']);
 
 // Default task
-gulp.task('default', ['css', 'js', 'vendor']);
+gulp.task('default', ['css', 'js', 'vendor', 'img', 'html']);
 
 // Configure the browserSync task
 gulp.task('browserSync', function() {
