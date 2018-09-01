@@ -25,6 +25,17 @@ npm install
 git clone -b master git@github.com:progrhyme/progrhyme.github.io.git dist
 ```
 
+### Build site locally
+
+```sh
+gulp
+```
+
+This creates whole site contents under `dist/`.  
+You can browse <u>dist/index.html</u> to check if it is fine.
+
+Alternatively, you can run `make build` to build the site.
+
 ### Publish
 
 ```sh
