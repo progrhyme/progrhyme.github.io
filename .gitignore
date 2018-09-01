@@ -1,5 +1,12 @@
+# Temporary
 /tmp/
+
+# Contents to be published
+/dist/
+
+# npm
 /node_modules/
 
+# Editor artifacts
 /\.vscode/
 *\.sw[pon]
