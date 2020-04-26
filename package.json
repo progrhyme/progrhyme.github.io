@@ -27,10 +27,10 @@
     },
     "dependencies": {
         "@fortawesome/fontawesome-free": "~5.2.0",
+        "@popperjs/core": "^2.3.3",
         "bootstrap": "~4.4.1",
         "jquery": "~3.5.0",
-        "jquery.easing": "~1.4.1",
-        "@popperjs/core": "^2.3.3"
+        "jquery.easing": "~1.4.1"
     },
     "devDependencies": {
         "browser-sync": "^2.26.7",
